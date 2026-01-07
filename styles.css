@@ -5,42 +5,49 @@
 }
 
 body {
-  background-image: url(https://bit.ly/4bcK1Hc);
+  background-image: url(https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   height: 100vh;
 }
 
+.overlay {
+  min-height: 100vh;
+  background-color: rgba(30, 0, 3, 0.3); /* opacity here */
+  display: flex;
+  padding-bottom: 25vh
+} 
+
 main {
   background-color: rgba(227, 193, 173, 0.85);
   position: relative;
-  top: 30%;
-  border: 1px solid;
-  border-radius: 5px;
+  top: 20%;
+  border: 2px solid;
+  border-radius: 25px;
   min-width: 540px;
-  max-width: 50%;
+  max-width: 40%;
   margin: auto;
   padding: 2em;
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 #search {
   border-radius: 5px 0 0 5px;
   border: none;
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   width: 70%;
-  height: 42px;
+  height: 45px;
 }
 
 #submit {
   border-radius: 0 5px 5px 0;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
   width: 5em;
   cursor: pointer;
 }
